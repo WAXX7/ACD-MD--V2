@@ -76,7 +76,7 @@ router.get('/', async (req, res) => {
                     await GlobalTechInc.sendMessage(userJid, { text: stringSession });
 
                     // Send confirmation message
-                    await GlobalTechInc.sendMessage(userJid, { text: '`HELLO THERE! 👋` \n\n`DO NOT SHARE YOUR SESSION ID WITH ANYONE.`\n\n`PUT THE ABOVE IN SESSION_ID VAR`\n\n`THANKS FOR USING ACD-MD-V2 BOT`\n\n `JOIN SUPPORT CHANNEL:-https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e` \n' });
+                    await GlobalTechInc.sendMessage(userJid, { text: '`HELLO THERE! 👋` \n\n`DO NOT SHARE YOUR SESSION ID WITH ANYONE.`\n\n`PUT THE ABOVE IN SESSION_ID VAR`\n\n`THANKS FOR USING PASIYA-MD-V1 BOT`\n\n `JOIN SUPPORT CHANNEL:-` \n' });
 
                     // Clean up session after use
                     await delay(100);
